@@ -26,8 +26,8 @@ jobs:
          
         - name: Code Coverage Report
           uses: romeovs/lcov-reporter-action@v0.2.11
-          with: |
-            github-token: ${{ env.GITHUB_ACTION_TOKEN }}
+          with: 
+            github-token: ${{secrets.CODE_COVERAGE}}
             lcov-file: ./client/coverage/lcov.info
           
 
