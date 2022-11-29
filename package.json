@@ -1,4 +1,7 @@
 {
+    "scripts": {
+      "commit": "cz","commit": "cz"
+    },
   "dependencies": {
     "husky": "^8.0.2",
     "release": "^6.3.1",
