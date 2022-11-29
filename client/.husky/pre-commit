@@ -1,6 +1,10 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+cd ./client
 yarn format
 yarn lint
+
+cd ..
+
 git add .

@@ -2,7 +2,7 @@ version: '3'
 services:
   react-ui:
     build:
-      context: .
+      context: ./client
     ports:
       - "3000:3000"
     container_name: react-ui

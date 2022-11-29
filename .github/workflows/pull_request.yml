@@ -21,10 +21,10 @@ jobs:
         - name: Install from yarn lock file
           run: yarn install --frozen-lockfile
 
-        - name: Build the image
-          run: yarn build
+        #- name: Build the image --update these for api and client
+        #  run: yarn build
 
-        - name: Run tests
-          run: yarn test
+        #- name: Run tests - update these for api and client
+        # run: yarn test
         
 
