@@ -18,13 +18,14 @@ jobs:
           with:
             node-version: 16
 
-        - name: Install from yarn lock file
-          run: yarn install --frozen-lockfile
+        - name: Run UI tests
+          run: |
+            cd client
+            yarn install --frozen-lockfile
+            yarn test
 
-        #- name: Build the image --update these for api and client
-        #  run: yarn build
+        - name: Upload coverage to Codecov
+          uses: codecov/codecov-action@v3
 
-        #- name: Run tests - update these for api and client
-        # run: yarn test
         
 
