@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.6](https://github.com/esaldivar/ReactTSTemplate/compare/v1.1.5...v1.1.6) (2022-11-29)
+
+
+### Bug Fixes
+
+* update pr yml ([f9948ba](https://github.com/esaldivar/ReactTSTemplate/commit/f9948ba4eb9e0988e8a1467f582046aa7ac5f261))
+* update test to ignore index.tsx ([4b31ab7](https://github.com/esaldivar/ReactTSTemplate/commit/4b31ab7794649a2279f3caadcff8283c84365e3b))
+
 ### [1.1.5](https://github.com/esaldivar/ReactTSTemplate/compare/v1.1.4...v1.1.5) (2022-11-29)
 
 
