@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/esaldivar/ReactTSTemplate/compare/v1.1.0...v1.1.1) (2022-11-29)
+
+
+### Tests
+
+* test pr yml ([cbf357d](https://github.com/esaldivar/ReactTSTemplate/commit/cbf357d5ca968b98120f78d485195250b1f4fed1))
+
 ## [1.1.0](https://github.com/esaldivar/ReactTSTemplate/compare/v1.0.11...v1.1.0) (2022-11-29)
 
 
