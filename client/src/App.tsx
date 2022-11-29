@@ -8,9 +8,9 @@ import styled from "./App.module.scss";
 
 const App = () => {
   return (
-    <div className={styled.App}>
+          <div className={styled.App}>
       <h1>React Template</h1>
-    </div>
+       </div>
   );
 };
 
