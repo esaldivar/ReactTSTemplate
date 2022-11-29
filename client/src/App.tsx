@@ -10,6 +10,7 @@ const App = () => {
   return (
     <div className={styled.App}>
       <h1>React Template</h1>
+      <h2>Other Title</h2>
     </div>
   );
 };
