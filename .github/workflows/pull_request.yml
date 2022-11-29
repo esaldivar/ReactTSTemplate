@@ -1,0 +1,30 @@
+
+name: Node Continuous Integration
+
+on:
+  pull_request:
+    branches: 
+      - main
+
+jobs:
+    test_pull_request:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout branch from repository
+          uses: actions/checkout@v2
+
+        - name: Setup node environment
+          uses: actions/setup-node@v1
+          with:
+            node-version: 16
+
+        - name: Install from yarn lock file
+          run: yarn install --frozen-lockfile
+
+        - name: Build the image
+          run: yarn build
+
+        - name: Run tests
+          run: yarn test
+        
+
