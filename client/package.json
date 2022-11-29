@@ -90,5 +90,10 @@
     "prettier": "^2.7.1",
     "prop-types": "^15.8.1",
     "webpack": "^5.75.0"
+  },
+  "jest": {
+    "testPathIgnorePatterns" : [
+      "src/stories/", "src/utils/" 
+    ]
   }
 }
