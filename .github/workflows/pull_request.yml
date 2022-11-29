@@ -29,6 +29,7 @@ jobs:
           with: 
             github-token: ${{secrets.CODE_COVERAGE}}
             lcov-file: ./client/coverage/lcov.info
+            delete-old-comments: true
           
 
         
