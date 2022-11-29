@@ -29,7 +29,6 @@ jobs:
           with:
             github-token: ${{ env.GITHUB_ACTION_TOKEN }}
             lcov-file: ./client/coverage/lcov.info
-            filter-changed-files: true
           
 
         
