@@ -1,12 +1,12 @@
 {
   "name": "reacttemplate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A web development template",
   "license": "MIT",
   "scripts": {
     "commit": "cz",
     "release": "standard-version"
-    },
+  },
   "dependencies": {
     "husky": "^8.0.2",
     "cz-conventional-changelog": "3.3.0",
