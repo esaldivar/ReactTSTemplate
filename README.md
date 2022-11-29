@@ -3,9 +3,6 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 
-<img src='./docs/RushPhotoAlbum.png'  alt='banner' width='100%'>
-
-
 # Table of Contents
 
 * [Local Development](#local-development)
