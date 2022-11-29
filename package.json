@@ -1,10 +1,21 @@
 {
-    "scripts": {
-      "commit": "cz","commit": "cz"
+  "name": "reacttemplate",
+  "version": "1.0.2",
+  "description": "A web development template",
+  "license": "MIT",
+  "scripts": {
+    "commit": "cz",
+    "release": "standard-version"
     },
   "dependencies": {
     "husky": "^8.0.2",
+    "cz-conventional-changelog": "3.3.0",
     "release": "^6.3.1",
     "standard-version": "^9.5.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
