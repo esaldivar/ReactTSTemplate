@@ -23,9 +23,7 @@ jobs:
             cd client
             yarn install --frozen-lockfile
             yarn test
-
-        - name: Upload coverage to Codecov
-          uses: codecov/codecov-action@v3
+            romeovs/lcov-reporter-action@v0.2.11
 
         
 
