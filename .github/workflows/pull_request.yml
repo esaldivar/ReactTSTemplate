@@ -23,7 +23,11 @@ jobs:
             cd client
             yarn install --frozen-lockfile
             yarn test
-            romeovs/lcov-reporter-action@v0.2.11
+          uses: romeovs/lcov-reporter-action@v0.2.11
+          with:
+            lcov-file: ./coverage/lcov.info
+
+          
 
         
 
